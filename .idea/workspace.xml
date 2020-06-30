@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3b35b382-6959-4877-af4e-85d0ce85a658" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ensas/virustracker/demo/controller/VirusExaminatorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ensas/virustracker/demo/controller/publicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ensas/virustracker/demo/entity/Trace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ensas/virustracker/demo/entity/VirusSpreading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ensas/virustracker/demo/repository/VExaminatorRepository/VirusExaminatorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ensas/virustracker/demo/repository/spreadingRepository/SpreadingRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ensas/virustracker/demo/repository/traceRepository/TraceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ensas/virustracker/demo/service/publicService/PublicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ensas/virustracker/demo/service/publicService/impl/PublicServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ensas/virustracker/demo/service/traceService/TraceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ensas/virustracker/demo/service/traceService/impl/TraceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/MiniProjetApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ensas/virustracker/demo/MiniProjetApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/controller/Scholarity/FileController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/controller/Scholarity/ScholarityController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/controller/StudentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/controller/home/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ensas/virustracker/demo/controller/home/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/controller/home/HomeExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ensas/virustracker/demo/controller/home/HomeExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/controller/home/UserNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ensas/virustracker/demo/controller/home/UserNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/controller/prof/ProfController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/dto/AbsenceData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/dto/Identification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ensas/virustracker/demo/dto/Identification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ensas/virustracker/demo/dto/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/dto/scholarityDto/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/entity/Absence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/entity/CertifRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/entity/Classe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/entity/Departement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/entity/Filiere.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/entity/Identification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ensas/virustracker/demo/entity/Identification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/entity/Module.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/entity/Prof.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/entity/ScolarityAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ensas/virustracker/demo/entity/VirusExaminator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/entity/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ensas/virustracker/demo/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/entity/admin/Admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/entity/user/access/Access.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/entity/user/access/TypeAcces.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/filters/JwtRequestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ensas/virustracker/demo/filters/JwtRequestFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/filters/MyCORSFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/model/AbsenceModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/model/TypeCertificat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/model/auth/AuthenticationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ensas/virustracker/demo/model/auth/AuthenticationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/model/auth/AuthenticationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ensas/virustracker/demo/model/auth/AuthenticationResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/model/auth/Authority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ensas/virustracker/demo/model/auth/Authority.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/repository/absenceRepository/AbsenceRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/repository/adminRepository/AdminRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/repository/certifRequestRepository/CertifRequestRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/repository/departementRepository/DepartementRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/repository/entityRepository/CertifRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/repository/entityRepository/ClasseRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/repository/filiereRepository/FiliereRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/repository/moduleRepository/ModuleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/repository/userRepository/ProfRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/repository/userRepository/ScholarityAgentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/repository/userRepository/StudentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ensas/virustracker/demo/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/service/CertifRequest/CertifRequestService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/service/CertifRequest/impl/CertifRequestServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/service/classe/ClasseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/service/classe/impl/ClasseServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/service/departement/DepartementService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/service/departement/impl/DepartementServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/service/filiere/FiliereService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/service/filiere/impl/FiliereServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/service/module/ModuleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/service/module/impl/ModuleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/service/prof/ProfService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/service/prof/impl/ProfServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/service/scholarityService/ScholarityService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/service/scholarityService/impl/ExportAbsence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/service/scholarityService/impl/ScholarityServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/service/studentService/StudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/service/studentService/impl/ImportStudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/service/studentService/impl/StudentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/service/userService/MyUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ensas/virustracker/demo/service/userService/MyUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ensas/virustracker/demo/util/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/util/ListUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ensas/virustracker/demo/util/ListUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/util/ObjectUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ensas/virustracker/demo/util/ObjectUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/util/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ensas/virustracker/demo/util/StringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ensas/miniprojet/demo/MiniProjetApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ensas/virustracker/demo/MiniProjetApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Xr9dDlVqAHsoKCsJnXuL3sOV01" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/controller" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.21828908" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ensas.miniprojet.demo.filters" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ensas.miniprojet.demo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ensas.miniprojet.demo.repository.VExaminatorRepository" />
+      <recent name="com.ensas.miniprojet.demo.entity" />
+      <recent name="com.ensas.miniprojet.demo.dto" />
+      <recent name="com.ensas.miniprojet.demo.service.departement.impl" />
+      <recent name="com.ensas.miniprojet.demo.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/controller" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/ensas/miniprojet/demo/service" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MiniProjetApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ensas.virustracker.demo.MiniProjetApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b35b382-6959-4877-af4e-85d0ce85a658" name="Default Changelist" comment="" />
+      <created>1581793431188</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581793431188</updated>
+      <workItem from="1581793435703" duration="7769000" />
+      <workItem from="1581803199457" duration="241000" />
+      <workItem from="1582451819188" duration="14927000" />
+      <workItem from="1582708970099" duration="2446000" />
+      <workItem from="1582885288417" duration="4711000" />
+      <workItem from="1583321915413" duration="1032000" />
+      <workItem from="1584355868052" duration="11515000" />
+      <workItem from="1584437185116" duration="10001000" />
+      <workItem from="1584480606035" duration="731000" />
+      <workItem from="1584527109937" duration="5115000" />
+      <workItem from="1584569073265" duration="545000" />
+      <workItem from="1584610063688" duration="3729000" />
+      <workItem from="1584643093068" duration="3733000" />
+      <workItem from="1584705524571" duration="3346000" />
+      <workItem from="1584792281930" duration="9079000" />
+      <workItem from="1584920399546" duration="171000" />
+      <workItem from="1584958042623" duration="354000" />
+      <workItem from="1586103729620" duration="342000" />
+      <workItem from="1586344346300" duration="2895000" />
+      <workItem from="1586542287673" duration="375000" />
+      <workItem from="1586694539434" duration="483000" />
+      <workItem from="1586776508285" duration="1750000" />
+      <workItem from="1586782707554" duration="256000" />
+      <workItem from="1586859978798" duration="406000" />
+      <workItem from="1586966299481" duration="627000" />
+      <workItem from="1587041095173" duration="5062000" />
+      <workItem from="1587150777035" duration="500000" />
+      <workItem from="1587213532074" duration="536000" />
+      <workItem from="1587216663239" duration="1955000" />
+      <workItem from="1587298741135" duration="160000" />
+      <workItem from="1587298985661" duration="2608000" />
+      <workItem from="1587325633494" duration="3225000" />
+      <workItem from="1587386786386" duration="4301000" />
+      <workItem from="1587430407698" duration="343000" />
+      <workItem from="1587476346616" duration="795000" />
+      <workItem from="1587485893138" duration="654000" />
+      <workItem from="1587645183310" duration="1059000" />
+      <workItem from="1587737416762" duration="1875000" />
+      <workItem from="1587932187113" duration="3592000" />
+      <workItem from="1587996275780" duration="507000" />
+      <workItem from="1588023795142" duration="742000" />
+      <workItem from="1588343354192" duration="3303000" />
+      <workItem from="1588543633158" duration="2985000" />
+      <workItem from="1588615082260" duration="298000" />
+      <workItem from="1588882489638" duration="1453000" />
+      <workItem from="1590681239269" duration="28000" />
+      <workItem from="1590855886292" duration="805000" />
+      <workItem from="1590936311344" duration="968000" />
+      <workItem from="1591746447019" duration="1674000" />
+      <workItem from="1592247774860" duration="3048000" />
+      <workItem from="1592395168238" duration="1475000" />
+      <workItem from="1592398931384" duration="7585000" />
+      <workItem from="1592429689210" duration="275000" />
+      <workItem from="1592483427177" duration="9932000" />
+      <workItem from="1592565591697" duration="3461000" />
+      <workItem from="1592593220061" duration="576000" />
+      <workItem from="1592655849286" duration="269000" />
+      <workItem from="1592741166061" duration="3517000" />
+      <workItem from="1592908477654" duration="7718000" />
+      <workItem from="1593014554229" duration="1175000" />
+      <workItem from="1593253821459" duration="62000" />
+      <workItem from="1593260147269" duration="1246000" />
+      <workItem from="1593261429310" duration="665000" />
+      <workItem from="1593343786077" duration="6929000" />
+      <workItem from="1593426155769" duration="2523000" />
+      <workItem from="1593514220618" duration="1862000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="341" y="119" key="#Project_Structure" timestamp="1586103794123">
+      <screen x="0" y="23" width="1440" height="842" />
+    </state>
+    <state x="341" y="119" key="#Project_Structure/0.23.1440.842@0.23.1440.842" timestamp="1586103794123" />
+    <state x="184" y="107" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593558134122">
+      <screen x="0" y="23" width="1440" height="842" />
+    </state>
+    <state x="184" y="107" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.842@0.23.1440.842" timestamp="1593558134122" />
+    <state x="533" y="156" key="#com.intellij.ide.util.MemberChooser" timestamp="1593427178582">
+      <screen x="0" y="23" width="1440" height="842" />
+    </state>
+    <state x="533" y="156" key="#com.intellij.ide.util.MemberChooser/0.23.1440.842@0.23.1440.842" timestamp="1593427178582" />
+    <state x="392" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1593261362488">
+      <screen x="0" y="23" width="1440" height="842" />
+    </state>
+    <state x="392" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.842@0.23.1440.842" timestamp="1593261362488" />
+    <state x="458" y="199" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593260211068">
+      <screen x="0" y="23" width="1440" height="842" />
+    </state>
+    <state x="458" y="199" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.842@0.23.1440.842" timestamp="1593260211068" />
+    <state x="312" y="49" key="CommitChangelistDialog2" timestamp="1587934180422">
+      <screen x="0" y="23" width="1440" height="842" />
+    </state>
+    <state x="312" y="49" key="CommitChangelistDialog2/0.23.1440.842@0.23.1440.842" timestamp="1587934180422" />
+    <state width="1398" height="408" key="GridCell.Tab.0.bottom" timestamp="1593558162913">
+      <screen x="0" y="23" width="1440" height="842" />
+    </state>
+    <state width="1398" height="235" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584877036046" />
+    <state width="1398" height="408" key="GridCell.Tab.0.bottom/0.23.1440.842@0.23.1440.842" timestamp="1593558162913" />
+    <state width="1398" height="408" key="GridCell.Tab.0.center" timestamp="1593558162913">
+      <screen x="0" y="23" width="1440" height="842" />
+    </state>
+    <state width="1398" height="235" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1584877036044" />
+    <state width="1398" height="408" key="GridCell.Tab.0.center/0.23.1440.842@0.23.1440.842" timestamp="1593558162913" />
+    <state width="1398" height="408" key="GridCell.Tab.0.left" timestamp="1593558162912">
+      <screen x="0" y="23" width="1440" height="842" />
+    </state>
+    <state width="1398" height="235" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1584877036043" />
+    <state width="1398" height="408" key="GridCell.Tab.0.left/0.23.1440.842@0.23.1440.842" timestamp="1593558162912" />
+    <state width="1398" height="408" key="GridCell.Tab.0.right" timestamp="1593558162913">
+      <screen x="0" y="23" width="1440" height="842" />
+    </state>
+    <state width="1398" height="235" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1584877036045" />
+    <state width="1398" height="408" key="GridCell.Tab.0.right/0.23.1440.842@0.23.1440.842" timestamp="1593558162913" />
+    <state width="1398" height="408" key="GridCell.Tab.1.bottom" timestamp="1593558162914">
+      <screen x="0" y="23" width="1440" height="842" />
+    </state>
+    <state width="1398" height="235" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584877036051" />
+    <state width="1398" height="408" key="GridCell.Tab.1.bottom/0.23.1440.842@0.23.1440.842" timestamp="1593558162914" />
+    <state width="1398" height="408" key="GridCell.Tab.1.center" timestamp="1593558162914">
+      <screen x="0" y="23" width="1440" height="842" />
+    </state>
+    <state width="1398" height="235" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1584877036048" />
+    <state width="1398" height="408" key="GridCell.Tab.1.center/0.23.1440.842@0.23.1440.842" timestamp="1593558162914" />
+    <state width="1398" height="408" key="GridCell.Tab.1.left" timestamp="1593558162913">
+      <screen x="0" y="23" width="1440" height="842" />
+    </state>
+    <state width="1398" height="235" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1584877036047" />
+    <state width="1398" height="408" key="GridCell.Tab.1.left/0.23.1440.842@0.23.1440.842" timestamp="1593558162913" />
+    <state width="1398" height="408" key="GridCell.Tab.1.right" timestamp="1593558162914">
+      <screen x="0" y="23" width="1440" height="842" />
+    </state>
+    <state width="1398" height="235" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1584877036049" />
+    <state width="1398" height="408" key="GridCell.Tab.1.right/0.23.1440.842@0.23.1440.842" timestamp="1593558162914" />
+    <state x="0" y="149" key="NewModule_or_Project.wizard" timestamp="1593260760225">
+      <screen x="0" y="23" width="1440" height="842" />
+    </state>
+    <state x="0" y="149" key="NewModule_or_Project.wizard/0.23.1440.842@0.23.1440.842" timestamp="1593260760225" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1592417539563">
+      <screen x="0" y="23" width="1440" height="842" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.23.1440.842@0.23.1440.842" timestamp="1592417539563" />
+    <state x="376" y="278" key="com.intellij.ide.util.TipDialog" timestamp="1593514218640">
+      <screen x="0" y="23" width="1440" height="842" />
+    </state>
+    <state x="376" y="278" key="com.intellij.ide.util.TipDialog/0.23.1440.842@0.23.1440.842" timestamp="1593514218640" />
+    <state x="308" y="175" width="824" height="538" key="find.popup" timestamp="1587046049695">
+      <screen x="0" y="23" width="1440" height="842" />
+    </state>
+    <state x="308" y="175" width="824" height="538" key="find.popup/0.23.1440.842@0.23.1440.842" timestamp="1587046049695" />
+    <state x="385" y="189" width="670" height="676" key="search.everywhere.popup" timestamp="1593344847322">
+      <screen x="0" y="23" width="1440" height="842" />
+    </state>
+    <state x="385" y="189" width="670" height="676" key="search.everywhere.popup/0.23.1440.842@0.23.1440.842" timestamp="1593344847322" />
+  </component>
+</project>
